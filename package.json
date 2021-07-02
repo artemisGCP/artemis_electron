@@ -1,6 +1,6 @@
 {
   "name": "artemisgcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "license": "MIT",
   "homepage": "./",
@@ -59,12 +59,15 @@
     ]
   },
   "build": {
-   "appId": "com.loyno-mathcs.your-github-name.weatherstation.wotdevice",
-   "files": [ "build/**/*", "node_modules/**/*" ],
-   "directories":{
- "buildResources": "assets"
-   }
- },
+    "appId": "com.loyno-mathcs.your-github-name.weatherstation.wotdevice",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
