@@ -111,8 +111,8 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "jordanbecker",
-              "name": "artemis-electron",
+              "owner": "jjbeck",
+              "name": "artemis_electron",
               "draft": true
             }
           }
